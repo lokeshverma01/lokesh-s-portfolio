@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokesh's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+
+  
+</head>
+
+<body>
+    <div class="scroll-up-btn">
+        <i class="fa fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#home"><span class="sp1">Portfo</span><span class="sp2">lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#teams" class="menu-btn">Teams</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home section start -->
+
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Lokesh Verma</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <a class="GWM" href="#contact">Grow With Me</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- about section start -->
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="image/WhatsApp Image 2020-09-26 at 11.04.27 PM.jpeg" alt="">
+                </div>
+                <div class="column right">
+
+                    <!-- <div class="text">I'm Lokesh and I'm a <span class="typing-2"></span></div> -->
+                    <div class="text-title ">
+                        <h3 style="color:#666666; font-size:14px;">Lokesh Verma</h3>
+                    </div>
+                           
+                           
+                        <div class="text-title">
+                        <h2 style="color:#191919; font-size:26px;">Learner, Leadership Enthusiast &amp; Inspirational speaker!</h2>
+                        </div>
+                           
+                           
+                        <div class="sec-text">
+                        <p">“Leadership is the ability to get extraordinary achievements from ordinary people.” A great quote by Brian Tracy. Lokesh Verma has thirst for knowledge regarding Software Development, Leadership and Public Speaking. He had invested last 4 years in Exploring I.T. Skills like MERN Stack, C++, Data Structures & Algorithm, SQL, AWS, and also builded his leadership and communication to the Next level. He worked with Team United and Leaded A group size of more than 300+ people, Generated a revenue of more than INR. 2000000+. He has completed his senior secondary education from SCM Vaishnav school indore and currently pursuing Engineering from AITR indore. </p>
+                        </div>
+                           
+                   
+                    <a href="https://drive.google.com/file/d/1f-K-O7KWAJOP6wnL3jNWLrLmIAQeLV9n/view?usp=sharing" target="blank">Download Resume</a>
+                
+                    <!-- <div class="text">I'm Lokesh and I'm a <span class="typing-2"></span></div> -->
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services section start -->
+
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My Services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush" id="i"></i>
+                        <div class="text">Web Design & App Development</div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum voluptates fuga, laborum
+                            reiciendis quae accusamus?</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chart-line" id="i"></i>
+                        <div class="text">Advertising</div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum voluptates fuga, laborum
+                            reiciendis quae accusamus?</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code" id="i"></i>
+                        <div class="text">App Design</div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum voluptates fuga, laborum
+                            reiciendis quae accusamus?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section started -->
+
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills k& experiences.</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis culpa sunt cum molestiae itaque
+                        velit, officiis labore fugiat veniam autem ex. Veritatis itaque, dignissimos quis deserunt quas
+                        omnis amet voluptatum quod impedit totam obcaecati eius temporibus fugit eligendi magnam
+                        voluptate, consequatur et eaque tenetur asperiores perspiciatis. Inventore doloremque
+                        consectetur expedita voluptatem, asperiores reprehenderit, cum libero perspiciatis sequi
+                        quibusdam repellat a.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JAVA-SCRIPT</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>PHP</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line php"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>My-SQL</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- teams section start -->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">My teams</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="image/WhatsApp Image 2020-09-26 at 11.04.27 PM.jpeg" alt="">
+                        <div class="text">Lokesh</div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="image/WhatsApp Image 2020-09-26 at 11.04.27 PM.jpeg" alt="">
+                        <div class="text">Lokesh</div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="image/WhatsApp Image 2020-09-26 at 11.04.27 PM.jpeg" alt="">
+                        <div class="text">Lokesh</div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="image/WhatsApp Image 2020-09-26 at 11.04.27 PM.jpeg" alt="">
+                        <div class="text">Lokesh</div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="image/WhatsApp Image 2020-09-26 at 11.04.27 PM.jpeg" alt="">
+                        <div class="text">Lokesh</div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in touch</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum magni ad aut commodi corrupti odit
+                        cum velit fuga. Dolore, voluptates.</p>
+                    <div class="icon">
+                        <div class="row">
+                            <i class="fas fa-user ic"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Lokesh Verma</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt ic"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">E-2/103 Scheme 103 near Avasa, indore</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope ic"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">dm.lokeshverma@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Describe project"></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send Message</button>
+                        </div>
+                </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- footer section start -->
+    <footer class="foot">
+        <span>Created By <a href="#">Lokesh Verma</a> <span class="far fa-copyright"></span>2021 All rights
+            reserved.</span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
